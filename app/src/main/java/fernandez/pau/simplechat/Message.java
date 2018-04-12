@@ -7,6 +7,8 @@ package fernandez.pau.simplechat;
 public class Message {
     public String user, text;
 
+    public Message() {}
+
     public Message(String user, String text) {
         this.user = user;
         this.text = text;

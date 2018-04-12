@@ -15,11 +15,8 @@ public class MessageViewHolder extends RecyclerView.ViewHolder {
 
     public MessageViewHolder(View root) {
         super(root);
+        this.user = root.findViewById(R.id.user);
+        this.text = root.findViewById(R.id.text);
     }
 
-    public MessageViewHolder(View root, TextView user, TextView text) {
-        super(root);
-        this.user = user;
-        this.text = text;
-    }
 }
